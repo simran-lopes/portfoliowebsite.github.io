@@ -538,8 +538,47 @@ h5{
 }
 /*end resume*/
 
+
+
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
+
+/*resume*/
+li{
+    text-align: left;
+    padding: 30px;
+    display: inline-block;
+	border: 0.5px solid rgb(238, 163, 201);
+	font-size: 7rem;
+	font-weight: 250;
+	display: block;
+}
+
+h5{
+    color: rgb(226, 43, 134);
+	font-size: 7rem;
+	margin-top: 5px;
+	line-height: 7rem;
+	font-weight: 600;
+	letter-spacing: 1rem;
+    text-align: left;
+	padding: 30px;
+}
+
+.lil {
+	font-weight: 400;
+	display: block;
+	background-color: transparent;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+	padding: 30px;
+}
+.lil:hover {
+	color: white;
+	background-color: rgb(238, 163, 201);
+}
+/*end resume*/
+	
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
@@ -602,6 +641,7 @@ h5{
 		text-align: left;
 	}
 	/* End About */
+	
 
 	/* contact  */
 	#contact .contact {
