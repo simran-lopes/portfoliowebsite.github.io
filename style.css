@@ -504,43 +504,10 @@ P {color: blueviolet;
 }
 /* End Keyframes */
 
-/*resume*/
-li{
-    text-align: left;
-    padding: 10px;
-    display: inline-block;
-	border: 0.5px solid rgb(238, 163, 201);
-	font-size: 2.5rem;
-	font-weight: 400;
-	display: block;
-}
 
-h5{
-    color: rgb(76, 43, 226);
-	font-size: 3rem;
-	margin-top: 5px;
-	line-height: 5rem;
-	font-weight: 600;
-	letter-spacing: 1rem;
-    text-align: left;
-}
-
-.lil {
-	font-weight: 400;
-	display: block;
-	background-color: transparent;
-	transition: 0.3s ease;
-	transition-property: background-color, color;
-}
-.lil:hover {
-	color: white;
-	background-color: rgb(238, 163, 201);
-}
-/*end resume*/
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
-	
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
@@ -603,7 +570,6 @@ h5{
 		text-align: left;
 	}
 	/* End About */
-	
 
 	/* contact  */
 	#contact .contact {
