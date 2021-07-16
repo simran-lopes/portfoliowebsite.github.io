@@ -507,7 +507,7 @@ P {color: blueviolet;
 /*resume*/
 li{
     text-align: left;
-    padding: 30px;
+    padding: 10px;
     display: inline-block;
 	border: 0.5px solid rgb(238, 163, 201);
 	font-size: 2.5rem;
@@ -516,14 +516,13 @@ li{
 }
 
 h5{
-    color: rgb(226, 43, 134);
+    color: rgb(76, 43, 226);
 	font-size: 3rem;
 	margin-top: 5px;
 	line-height: 5rem;
 	font-weight: 600;
 	letter-spacing: 1rem;
     text-align: left;
-	padding: 30px;
 }
 
 .lil {
@@ -532,7 +531,6 @@ h5{
 	background-color: transparent;
 	transition: 0.3s ease;
 	transition-property: background-color, color;
-	padding: 30px;
 }
 .lil:hover {
 	color: white;
@@ -540,12 +538,8 @@ h5{
 }
 /*end resume*/
 
-
-
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
-
-
 	
 	.cta {
 		font-size: 2.5rem;
