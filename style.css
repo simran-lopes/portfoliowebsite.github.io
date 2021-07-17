@@ -504,7 +504,47 @@ P {color: blueviolet;
 }
 /* End Keyframes */
 
+/*resume*/
+li{
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+	
+	font-size: 2.5rem;
+	font-weight: 400;
+	display: block;
+	margin-left: 30px;
+	margin-right: 30px;
+	
+}
 
+h5{
+    color: rgb(226, 43, 134);
+	font-size: 2rem;
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-right: 0px;
+	line-height: 5rem;
+	font-weight: 600;
+	letter-spacing: 1rem;
+    text-align: center;
+	
+}
+
+.lil {
+	font-weight: 400;
+	display: block;
+	background-color: transparent;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.lil:hover {
+	color: white;
+	background-color: rgb(238, 163, 201);
+}
+/*end resume*/
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
